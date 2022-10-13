@@ -16,7 +16,7 @@ body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   /* line-height: 1.1rem; */
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
@@ -54,7 +54,7 @@ header nav ul {
 
 header nav ul li {
   padding: 1rem 2rem;
-  background-color: rgba(42, 97, 54, 1);
+  background-color: rgba(34, 66, 41, 1);
   transition-property: all;
   transition-duration: .2s;
 }
@@ -62,7 +62,8 @@ header nav ul li {
 header nav ul li:hover,
 header nav ul li:focus {
   transform: scale(1.08);
-  background-color: rgba(43, 118, 59, 1);
+  background-color: rgba(42, 97, 54, 1);
+  border-radius: 3px;
 }
 
 header nav ul li a {
@@ -73,7 +74,10 @@ header nav ul li a {
 }
 
 main {
-  padding: 0 1rem;
+  padding: 0 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
 .big-image {
@@ -89,10 +93,57 @@ main {
 h2 {
   font-size: 3.5rem;
   font-weight: normal;
+  margin: 0 0 1rem;
 }
 
 .price {
   font-size: 2rem;
+  margin: 0 0 1rem;
+
+}
+
+.short-description {
+  margin: 0 0 1rem;
+}
+
+.buy {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(34, 66, 41, 1);
+  transition-property: all;
+  transition-duration: .2s;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.buy a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 1rem 9.5rem;
+    font-weight: bolder;
+}
+
+.buy:hover,
+.buy:focus {
+  transform: scale(1.05);
+  background-color: rgba(42, 97, 54, 1);
+}
+
+.whats-included {
+  margin: 0 0 1rem;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.whats-included h3 {
+  margin: 0 0 1rem;
+  padding: 0 0 .5rem;
+  border-bottom: solid;
+  border-color: rgba(209, 225, 216, 1);
+  border-width: thin;
 }
 
 footer {
