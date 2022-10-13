@@ -15,9 +15,14 @@ html {
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  /* line-height: 1.1rem; */
   font-size: 1.3rem;
   font-weight: 300;
+}
+
+body p,
+body li,
+body dt {
+  line-height: 1.8rem;
 }
 
 img {
@@ -138,7 +143,11 @@ h3 {
   font-weight: 300;
 }
 
-.whats-included h3 {
+.whats-included h3,
+.reviews h3,
+.description h3,
+.details-care,
+.also-browsed h3 {
   margin: 0 0 1rem;
   padding: 0 0 .5rem;
   border-bottom: solid;
