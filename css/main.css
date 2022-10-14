@@ -194,9 +194,41 @@ h3 {
 .details dl {
   padding: 0 0 1rem;
 }
+.also-browsed h3 {
+  margin-bottom: 1.5rem;
+}
+
+.also-browsed {
+  margin-bottom: 5rem;
+}
+
+.other-plants {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.other-plants-div img {
+  margin: 0 0 .25rem;
+}
+
+.other-price {
+  margin: 0 0 .075rem;
+  font-size: 1.2rem;
+}
+
+.plant-names {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(34, 66, 41, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 1rem;
 }
 /* Default styling for all screens ends here */
 
