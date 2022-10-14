@@ -60,6 +60,9 @@ header nav ul {
 header nav ul li {
   padding: 1rem 2rem;
   background-color: rgba(34, 66, 41, 1);
+  border: solid;
+  border-color: rgba(255, 255, 255, 1);
+  border-width: thin;
   transition-property: all;
   transition-duration: .2s;
 }
@@ -168,6 +171,27 @@ h3 {
 
 .whats-included ul li {
   list-style-type: none;
+  padding: 0 0 1rem;
+}
+
+.reviews p {
+  background-color: rgba(209, 225, 216, 1);
+  padding: 1rem;
+}
+
+.details dl dt {
+    float: left;
+    width: 30%;
+    text-align: left;
+    clear: left;
+}
+.details dl dd {
+    float: left;
+    width: 60%;
+    padding: .25em 0;
+}
+
+.details dl {
   padding: 0 0 1rem;
 }
 
