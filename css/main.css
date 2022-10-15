@@ -175,11 +175,40 @@ h3 {
 }
 
 .reviews p {
-  background-color: rgba(209, 225, 216, 1);
+  border: solid;
+  border-width: medium;
+  border-color: rgba(209, 225, 216, 1);
   padding: 1rem;
 }
 
-.details dl dt {
+.details h3 {
+  margin: 0 0 .5rem;
+}
+.details dl {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 0 2rem;
+}
+
+.dl-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: .5rem 0;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: rgba(209, 225, 216, 1);
+}
+
+dt {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+dd {
+  margin-left: .5rem;
+}
+/* .details dl dt {
     float: left;
     width: 30%;
     text-align: left;
@@ -192,7 +221,7 @@ h3 {
 }
 
 .details dl {
-  padding: 0 0 1rem;
+  padding: 0 0 1rem; */
 }
 .also-browsed h3 {
   margin-bottom: 1.5rem;
@@ -204,7 +233,7 @@ h3 {
 
 .other-plants {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
