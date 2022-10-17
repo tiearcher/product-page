@@ -228,6 +228,47 @@ dd {
   margin-bottom: 1rem;
 }
 
+.hail-mary {
+  max-width: 375px;
+  overflow: hidden;
+}
+
+.container {
+  /* max-width: 950px; */
+  /* max-width: 335px; */
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 0;
+  /* display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  position: relative; */
+}
+
+.container .cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400%;
+  transition: 1s;
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+#two:checked ~ .cards{
+  margin-left: -25%;
+}
+
+#three:checked ~ .cards{
+  margin-left: -50%;
+}
+
+#four:checked ~ .cards{
+  margin-left: -75%;
+}
+
 .customer-review {
   border: solid;
   border-width: thin;
@@ -235,6 +276,14 @@ dd {
   padding: 1rem;
   margin-bottom: 1rem;
   max-width: 335px;
+  min-width: 335px;
+  height: 180px;
+  margin-right: 1rem;
+  /* width: calc(100% / 2 - 10px);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  justify-content: space-between; */
 }
 
 .customer-review p {
@@ -254,6 +303,29 @@ dd {
 
 .review-content {
   margin-bottom: 1rem;
+}
+
+.button {
+  color: rgba(42, 97, 54, 1);
+}
+
+/* .button label.active{
+  width: 35px;
+}
+#one:checked ~ .button .one{
+  width: 35px;
+}
+#one:checked ~ .button .two{
+  width: 15px;
+}
+#two:checked ~ .button .one{
+  width: 15px;
+}
+#two:checked ~ .button .two{
+  width: 35px;
+} */
+input[type="radio"]{
+  color: rgba(42, 97, 54, 1);
 }
 
 .also-browsed h3 {
